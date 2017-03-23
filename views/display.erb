@@ -1,0 +1,9 @@
+<h4>Here are the individual scores for each word you already input:</h4>
+<div>
+  <% @words.each() do |word| %>
+    <div>
+      <div id="word"><%= word[0]%>:&emsp;</div>
+      <div id="score"><%= word[1]%></div>
+    </div>
+  <% end %>
+</div>
